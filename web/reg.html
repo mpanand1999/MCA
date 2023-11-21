@@ -1,0 +1,134 @@
+<html>
+<head>
+
+<style>
+.buttons {
+  background-color: #948a8a; /* gray */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:600px;
+}
+#reset{
+background-color:#f44336;}
+
+#submit{
+background-color:green;
+}
+h2{
+ text-align: center;
+}
+.qwe {
+ text-align: center;
+ width:500px;
+ margin-left:400px;
+}
+
+</style>
+
+
+</head>
+<body>
+ <form style="border:3px solid black;" class="qwe">
+    <h2>Student Registration Form</h2>
+<div>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required placeholder="ENTER YOUR FIRST NAME">
+<br><br>
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required placeholder="ENTER YOUR LAST NAME">
+<br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+<br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required placeholder="ENTER YOUR EMAIL">
+<br><br>
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile" name="mobile" required placeholder="ENTER YOUR MOBILE NUMBER">
+    </div><br><br>
+    
+<div class="gender">
+  <label for="gender">Gender:</label>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">male</label>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">female</label>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">other</label>
+
+    </div>
+    <br>
+    <div class=addres>
+    
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required placeholder="ENTER YOUR ADDRESS"></textarea>
+    <br><br>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required placeholder="ENTER YOUR CITY">
+
+    <label for="pin-code">Pin Code:</label>
+    <input type="text" id="pin-code" name="pin-code" required placeholder="ENTER YOUR PINCODE">
+<br><br>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required placeholder="ENTER YOUR STATE">
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required placeholder="ENTER YOUR COUNTRY">
+    </div>
+    <br>
+    <div>
+     <label for="city"><b>UPLOAD YOUR PHOTO</b></label>
+    <form action="/action_page.php">
+  <input type="file" id="myFile" name="filename" placeholder="UPLOAD YOUR PHOTO">
+ 
+
+    
+    </div>
+<br>
+    <label for="hobbies"><b>SKILL:</b></label>
+    <div class="checkboxes">
+     <!--   <div class="checkbox">-->
+        <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+        <label for="hobby1">html</label>
+     <!-- </div>-->
+      <!--  <div class="checkbox">-->
+        <input type="checkbox" id="hobby2" name="hobby2" value="playing">
+        <label for="hobby2">Css</label>
+      <!--  </div>
+      <div class="checkbox">-->
+        <input type="checkbox" id="hobby3" name="hobby3" value="singing">
+        <label for="hobby3">Java</label>
+      <!--  </div>
+      <div class="checkbox">-->
+        <input type="checkbox" id="hobby4" name="hobby4" value="dancing">
+        <label for="hobby4">React</label>
+      <!--  </div>-->
+    </div>
+</form>
+  <br>
+    <div class="buttons" >
+    <script>
+function buttonsValidatio()
+{
+alert("success");
+}
+</script>
+<button  id="reset" type="reset" onclick=alert('MUNJI_GUYS')>Reset</button>
+      <button id="submit" type="submit" onclick="buttonsValidatio()">Submit</button>
+
+     <!--  <button  id="reset" type="reset" onclick=alert('MUNJI_GUYS')>Reset</button>
+      <button id="submit" type="submit" onclick=alert('submitted')>Submit</button>  -->
+    </div>
+  <closeform></closeform>
+
+</body>
+</html>
+
