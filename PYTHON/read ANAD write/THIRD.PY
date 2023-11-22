@@ -1,0 +1,7 @@
+f=open("third.txt","w")
+f.write("M.P ANANAD")
+f.close()
+f=open("abc.txt",'r')
+str=f.read()
+print("Read Strings:",str)
+print("File",f.name,"Closed")
