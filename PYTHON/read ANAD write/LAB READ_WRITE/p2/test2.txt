@@ -1,0 +1,2 @@
+This attribute returns the raw bytes of the response content.
+You can use the json() method to get the response content in JSON format.

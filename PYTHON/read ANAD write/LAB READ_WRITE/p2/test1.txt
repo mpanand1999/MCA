@@ -1,0 +1,3 @@
+This attribute returns the raw bytes of the response content.
+The text attribute returns the content as a normal UTF-8 encoded Python string.
+You can use the json() method to get the response content in JSON format.
